@@ -1,0 +1,24 @@
+HTML 
+body 
+{background-color: rgb(188, 162, 220)}
+P {
+    color: rgb(85, 74, 99);
+    background-color: rgb(200, 186, 217)
+    }
+
+.top-zone img {
+    width: 200px;
+}
+
+.below-zone img{
+    width: 500;
+}
+
+.below-zone {
+    text-align: right;
+}
+
+.main-zone {
+    text-align: center;
+}
+
