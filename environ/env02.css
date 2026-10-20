@@ -1,12 +1,12 @@
 HTML 
 body 
-{background-color: rgb(188, 162, 220)}
+{background-color: rgb(188, 162, 220); background-image: url("9fe73002a8798b12e5468c84274ef7a4.jpg"); background-size: 1400px;}
 P {
     color: rgb(85, 74, 99);
     background-color: rgb(200, 186, 217)
     }
 
-.top-zone img {
+.main-zone img {
     width: 200px;
 }
 

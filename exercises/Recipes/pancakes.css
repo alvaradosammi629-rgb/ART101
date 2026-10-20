@@ -1,0 +1,76 @@
+HTML {background-color: peachpuff;}
+
+HTML:hover {background-color: rgb(179, 99, 30);}
+
+A {color: darkgreen}
+A:hover {color: aqua; background: rgb(19, 32, 113)}
+UL {
+    color: red;
+}
+
+h1 {
+    background-color: rgb(19, 32, 113); 
+    color: rgb(82, 172, 172);
+    font-weight: normal;
+}
+
+P {
+    background-color: cornsilk;
+    font-size: 18px;
+    margin: 50px;
+    padding: 5%;
+    border: 1px dashed orange;
+    width: 600px;
+    height: 200px;
+    display: block;
+}
+
+IMG {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%;
+}
+
+IMG:hover {width: 70%; transition: linear 1000ms;}
+
+#Beyonce {width: 70%}
+
+
+.highlight_01 {background-color: palevioletred;}
+
+.highlight_01:hover {background-color: rgb(251, 177, 202);}
+
+.highlight_01 strong{background-color: lightpink;}
+
+#main {
+    background-color: azure;
+    padding: 50px;
+    margin: 100px;
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+border-radius: 100px;
+}
+
+
+
+/* home page styles */
+
+#pan-home {position: relative; height: 100vh;
+background: url(images/icegif-620.gif);
+}
+
+#chicken {position: absolute; bottom: 50px; left: 40%;}
+
+#chicken2 {position: absolute; bottom: 50px; left: 70%;}
+
+#chicken3 {position: absolute; bottom: 50px; left: 100px;}
+
+#homelink {position: absolute; top: 50px; right: 50px;}
+
+#homelink IMG { width: 40px;}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
