@@ -28,6 +28,7 @@ $("#needy-button").click( function(){
     $("#needy-button").html( buttonText ); 
 
     $("body").css( "background-color", colors[count-1] );
- 
+
+    $("body").append("<img width='50' src='" +colors[count-1]  +".jpg'>");
 
 });
