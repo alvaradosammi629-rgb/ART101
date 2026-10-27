@@ -1,9 +1,9 @@
 let count = 0;
 let buttonCreature = {
-    name: "Needy Button",
-    species: "interface creature",
-    favoriteFood: "clicks",
-    moods: ["sleepy", "nervous", "glowing", "dramatic", "hopeful", "confused"]
+    name: "Ravenous Button",
+    species: "developer creature",
+    favoriteFood: "taps",
+    moods: ["exhausted", "timid", "radiant", "soulful", "chipper", "perplexed"]
 };
 
 $("needy-button").click(function () {
