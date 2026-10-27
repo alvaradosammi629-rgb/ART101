@@ -1,6 +1,6 @@
 let count = 0;
 let buttonCreature = {
-    name: "Needy Button",
+    name: "needy-button",
     species: "interface creature",
     favoriteFood: "clicks",
     moods: ["sleepy", "nervous", "glowing", "dramatic", "hopeful", "confused"]
