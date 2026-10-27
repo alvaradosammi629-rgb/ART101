@@ -6,7 +6,7 @@ let buttonCreature = {
     moods: ["exhausted", "timid", "radiant", "soulful", "chipper", "perplexed"]
 };
 
-$("needy-button").click(function () {
+$("needy-button").click(function() {
     
     count = count + 1;
 
