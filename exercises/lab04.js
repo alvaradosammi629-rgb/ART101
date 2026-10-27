@@ -10,6 +10,9 @@ $("needy-button").click(function () {
 
     count = count + 1;
 
+    let arrayPosition = count - 1;
+
     console.log(count);
+    console.log(arrayPosition);
 
 });
