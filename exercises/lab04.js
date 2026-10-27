@@ -14,7 +14,7 @@ $("needy-button").click(function () {
 
     let currentMood = buttonCreature.moods[arrayPosition];
 
-    let message = "My current mood is " + currentMood;
+    let message = "<p>You clicked me " + count + " times.</p>";
 
     $("#output").html(message);
 
