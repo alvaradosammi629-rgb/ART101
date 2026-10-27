@@ -7,8 +7,8 @@ let buttonCreature = {
 };
 
 $("needy-button").click(function () {
-
-    let count = count + 1;
+    
+    count = count + 1;
 
     let arrayPosition = count - 1;
 
