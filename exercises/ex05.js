@@ -2,7 +2,7 @@ function paintPage (color) {
     $("body").css("background-color", color);
 }
 
-paintPage("yellow"); 
+paintPage("lavender"); 
 
 // the clicker button progrm 
 
