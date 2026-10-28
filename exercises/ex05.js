@@ -79,3 +79,10 @@ $("#lavender").click(function(){
     console.log("lavender was clicked");
     paintPage("lavender");
 });
+
+// come back to this later to test functionality
+
+$(".color-circle").click(function(){ 
+    console.log("a circle was clicked");
+    paintPage(this.id);
+});
