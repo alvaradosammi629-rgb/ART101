@@ -2,7 +2,7 @@ function paintPage (color) {
     $("body").css("background-color", color);
 }
 
-paintPage("lavender"); 
+paintPage("gray"); 
 
 // the clicker button progrm 
 
@@ -56,4 +56,26 @@ $("#needy-button").click( function(){
 
     if (colorsCount >= 8) {colorsCount = 0; }
 
+});
+
+
+
+$("#green").click(function(){ 
+    console.log("green was clicked");
+    paintPage("green");
+});
+
+$("#orange").click(function(){ 
+    console.log("orange was clicked");
+    paintPage("orange");
+});
+
+$("#pink").click(function(){ 
+    console.log("pink was clicked");
+    paintPage("pink");
+});
+
+$("#lavender").click(function(){ 
+    console.log("lavender was clicked");
+    paintPage("lavender");
 });
