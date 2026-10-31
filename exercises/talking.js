@@ -46,11 +46,15 @@ $("#character-b").click(function() {
 $("#answer-green").click(function() {
 
     $("body").css("background-color", "green");
+    $("#chat").append("<p>Jax: How did you do that? </p>");
+    $("#answers").css("display", "none");
 
 });
 
 $("#answer-pink").click(function () {
 
     $("body").css( "background-color", "pink");
+    $("#chat").append("<p>Jax: Still don't like it </p>");
+    $("#answers").css("display", "none");
 
 });
