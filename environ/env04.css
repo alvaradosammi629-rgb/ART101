@@ -69,5 +69,21 @@ body {
 .highlight_01 {background-color: rgb(188, 162, 220);}
 .highlight_02 {background-color: rgb(188, 162, 220);}
 .highlight_03 {background-color: rgb(188, 162, 220);}
+.highlight_04 {background-color: rgb(188, 162, 220);}
 
 
+button {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+p {
+    position: center;
+    bottom: 100px;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(54, 20, 99);
+}

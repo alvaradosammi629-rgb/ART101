@@ -25,4 +25,7 @@ $("#elements-button").click( function(){
     $("#environment-output").html(output);
 });
 
+function change(){
+    document.getElementById("text").style.display = "none";
+}
 
