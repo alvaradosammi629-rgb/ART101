@@ -1,16 +1,24 @@
 HTML 
 body 
 {background-color: rgb(188, 162, 220); background-position: center; background-repeat: no-repeat; background-size: cover; height: 100vh; background-image: url("9fe73002a8798b12e5468c84274ef7a4.jpg");}
-P {
-    color: rgb(85, 74, 99);
-    background-color: rgb(200, 186, 217)
-    }
+
+
 
 #butterflies {
     width: 100px;
     position: absolute;
-    top: 200px;
-    right: 40%;
+    top: 60px;
+    right: 46%;
+}
+
+.top p {
+    position: absolute;
+    top: 170px;
+    right: 43%;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(54, 20, 99);
 }
 
 #rd {
@@ -20,6 +28,17 @@ P {
     left: 60%;
 }
 
+.rainbowdash p {
+    position: absolute;
+    bottom: 50px;
+    left: 60%;
+    width: 340px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(54, 20, 99);
+}
+
 #ts {
     width: 400px;
     position: absolute;
@@ -27,5 +46,17 @@ P {
     right: 60%;
 }
 
+.twilight p {
+    position: absolute;
+    bottom: 50px;
+    right: 60%;
+    width: 400px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(54, 20, 99);
+}
 
-
+.highlight_01 {background-color: rgb(188, 162, 220);}
+.highlight_02 {background-color: rgb(188, 162, 220);}
+.highlight_03 {background-color: rgb(188, 162, 220);}
