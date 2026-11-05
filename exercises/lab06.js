@@ -40,3 +40,9 @@ $(document).mousemove(function (event) {
         })
     }
 });
+
+$(document).keydown(function(event) {
+    if (event.key === "" || event.code === "k") {
+        event.changebackground();
+    }
+});
